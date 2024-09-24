@@ -1,0 +1,367 @@
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header nav {
+    display: flex;
+    height: 10%;
+    width: 100%;
+    border-radius: 25%;
+    /* position: fixed; */
+}
+
+header nav img {
+    width: 300px;
+}
+
+header nav ul {
+    display: flex;
+    margin-left: 450px;
+    width: 1200px;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: auto;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    background-color: burlywood;
+    border: 1px solid burlywood;
+    text-align: center;
+    border-radius: 10%;
+}
+
+.First {
+    background-image: url(Bg_2.jpg);
+    /* background-image: linear-gradient(0deg, rgba(1, 1, 1, 0.3), rgba(1, 1, 1, 0.6)),url(../asset/images/Bg_2.jpg); */
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    align-content: center;
+}
+
+#first1 {
+    font-size: 50px;
+    color: white;
+    margin-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    align-items: center;
+}
+
+.First p {
+    /* margin-top: 70px; */
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+#btn1 {
+    border: 3px solid burlywood;
+    width: 250px;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;
+    background: transparent/*important tag*/
+}
+
+#btn1:hover {
+    background-color: burlywood;
+}
+
+.second {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+#image {
+    box-shadow: -5px -5px burlywood;
+}
+
+#image:hover {
+    margin-left: 10px;
+    transform: scale(0.5s);
+    transition: 1.05s;
+}
+
+#title {
+    color: burlywood;
+}
+
+.second .para1 {
+    float: right;
+    font-size: 50px;
+    margin-right: 80px;
+}
+
+#content {
+    margin-top: 150px;
+    margin-right: 80px;
+    margin-left: 150px;
+}
+
+#btn2 {
+    border: 3px solid burlywood;
+    width: 250px;
+    height: 40px;
+    align-items: center;
+    text-align: center;
+    margin-right: 80px;
+    margin-left: 300px;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#btn2:hover {
+    background-color: burlywood;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: auto auto auto;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    height: 30%;
+}
+
+#sub {
+    text-align: center;
+    align-items: center;
+    width: 80%;
+    height: 50px;
+}
+
+#sub:hover {
+    background-color: burlywood;
+}
+
+.quote {
+    height: 400px;
+    width: 100%;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    align-content: center;
+    text-align: center;
+    background: transparent;
+    background-image: url(Bg_5.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    color: white;
+}
+
+.SpecialM {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#specialm1 {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav2 {
+    width: 100%;
+    align-content: center;
+    align-items: center;
+}
+
+.nav2 ul {
+    display: flex;
+    list-style: none;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    width: 800px;
+    border: 1px solid black;
+    border-radius: 5%;
+}
+
+.nav2 ul li {
+    text-decoration: none;
+}
+
+.nav2 ul li a {
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+}
+
+.spd1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+}
+
+.drinks .specialdrink1 {
+    background-image: linear-gradient(0deg, rgba(204, 156, 92, 0.7), rgba(204, 156, 92, 0.9)), url(Drinks_1.jpg);
+    margin: 20px;
+    background-size: cover;
+    width: 350px;
+    padding-left: 10px;
+}
+
+.drinks .specialdrink2 {
+    background-image: linear-gradient(0deg, rgba(204, 156, 92, 0.7), rgba(204, 156, 92, 0.9)), url(Drinks_2.jpg);
+    margin: 20px;
+    background-size: cover;
+    width: 350px;
+    padding-left: 10px;
+}
+
+.drinks .specialdrink3 {
+    background-image: linear-gradient(0deg, rgba(204, 156, 92, 0.7), rgba(204, 156, 92, 0.9)), url(Drinks_3.jpg);
+    margin: 20px;
+    background-size: cover;
+    width: 350px;
+    padding-left: 10px;
+}
+
+.drinks .speciallunch1 {
+    background-image: linear-gradient(0deg, rgba(204, 156, 92, 0.7), rgba(204, 156, 92, 0.9)), url(Lunch_1.jpg);
+    margin: 20px;
+    background-size: cover;
+    width: 350px;
+    padding-left: 10px;
+}
+
+.drinks .speciallunch2 {
+    background-image: linear-gradient(0deg, rgba(204, 156, 92, 0.7), rgba(204, 156, 92, 0.9)), url(Lunch_2.jpg);
+    margin: 20px;
+    background-size: cover;
+    width: 350px;
+    padding-left: 10px;
+}
+
+.drinks .speciallunch3 {
+    background-image: linear-gradient(0deg, rgba(204, 156, 92, 0.7), rgba(204, 156, 92, 0.9)), url(Lunch_3.jpg);
+    margin: 20px;
+    background-size: cover;
+    width: 350px;
+    padding-left: 10px;
+}
+
+.drinks .specialDinner1 {
+    background-image: linear-gradient(0deg, rgba(204, 156, 92, 0.7), rgba(204, 156, 92, 0.9)), url(Dinner_1.jpg);
+    margin: 20px;
+    background-size: cover;
+    width: 350px;
+    padding-left: 10px;
+}
+
+.drinks .specialDinner2 {
+    background-image: linear-gradient(0deg, rgba(204, 156, 92, 0.7), rgba(204, 156, 92, 0.9)), url(Dinner_2.jpg);
+    margin: 20px;
+    background-size: cover;
+    width: 350px;
+    padding-left: 10px;
+}
+
+.specialDinner3 {
+    background-image: linear-gradient(0deg, rgba(204, 156, 92, 0.7), rgba(204, 156, 92, 0.9)), url(Dinner_2.jpg);
+    margin-left: 40%;
+    background-size: cover;
+    width: 350px;
+    padding-left: 10px;
+    color: white;
+}
+
+.gallery {}
+
+.g2 {
+    width: 100%;
+    align-content: center;
+    margin-top: 40px;
+}
+
+.g3 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.g1 {
+    margin: 20px 20px;
+    height: 250px;
+    width: 350px;
+    transition: 0.5s;
+}
+
+.g1:hover {
+    transform: scale(1.1);
+}
+
+#ceo {
+    width: 10%;
+    border-radius: 100%;
+    border: 1px solid gray;
+}
+
+.divisional {
+    text-align: center;
+}
+
+.paragraph1 {
+    font-weight: bold;
+    color: burlywood;
+    font-size: 30px;
+}
+
+
+/* Personal Info */
+
+.heading {
+    font-size: 35px;
+    text-align: center;
+}
+
+.paragraph {
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#last {
+    display: flex;
+    flex-direction: column(3);
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    width: 100%;
+    height: 30%;
+    background-color: burlywood;
+    color: white;
+}
+
+.last-h {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.last-p {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
